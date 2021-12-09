@@ -10,7 +10,7 @@
 
     - name: correct index.html is present
       copy:
-        src:  files/index.html
+        src:  /tmp/ansible-tower-setup-3.8.4-1/files/index.html
         dest: /var/www/html/index.html
 
     - name: httpd is started
